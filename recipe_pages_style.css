@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #33658A;
+}
+h1  {
+    font-size:15vh;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 7vh;
+    text-align: center; 
+    font-weight: 700;
+}
+h3 {
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-size: 3vh;
+}
+img {
+    height: 30vh;
+    width: 30vh;
+    object-fit: cover;
+}
+a {
+    text-decoration: none;
+    color: #FDF0D5;
+    font-weight:600;
+    font-size: large;
+}
+
+
+
+/* CLASS SELECTORS */
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0;
+}
+.sofia-regular {
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .topnav {
+    padding: 5%;
+
+  }
+
+  
+  /* TOPNAV SELECTORS */
+.topnav {
+    padding-top: 0;
+}
+  .topnav > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  .topnav > ul > li > input {
+    background-color: #FDF0D5;
+    caret-color: transparent;
+  }
+
+  /* HEADER ID SELECTORS */
+  #header {
+    color: #FDF0D5;
+    text-align: center;
+  }
+  #logo {
+    padding: 0 5%;
+  }
+  #stars {
+    width: 12%;
+    height: 12%;
+  }
+  #sun {
+    width: 15%;
+    height: 20%;
+  }
+
+  /* RECIPE SECTION */
+  #adobo_recipe {
+    background-color: #FDF0D5;
+    padding: 3% 5%;
+  }
+
+  #pic_and_ingredients {
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  #pic_and_ingredients > img {
+    padding-right: 10%;
+    border-radius: 10%;
+  }
+
+  .ingredients_two_columns {
+    display: grid;
+    grid-template-columns: 40% 10% 40%;
+    grid-template-rows: 10% 90%;
+  }
+
+  .second_col{
+    grid-column:3 / span 1;
+  }
+
+  #ingredients_name {
+    grid-column: 1 / span 4; 
+    padding-bottom:100px;
+  }
+
+  #method {
+padding: 0 30%;
+  }
+
+  #method > ol > li {
+    padding-top: 10px;
+  }
+
+/* COMMENTS */
+#comment_section {
+    background-color: #E01A4F;
+    color: #FDF0D5;
+    padding: 4% 20%;
+}
+.comment {
+    padding-top: 25px;
+}
+
+
+  /* FOOTER */
+  .footer_links {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer_links > div {
+    margin: 0 50px;
+  }
+  .footer_links > div > li {
+    list-style: none;
+  }
+  .footer_links > div > li > a {
+    font-weight: 300;
+  }
+  #footer_footer {
+    justify-content: space-around;
+    padding: 25px 0;
+    color: #FDF0D5;
+   }

@@ -1,0 +1,160 @@
+/* TAG SELECTORS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #33658A;
+}
+h1  {
+    font-size:15vh;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 7vh;
+    text-align: center; 
+    font-weight: 700;
+}
+h3 {
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-size: 3vh;
+}
+img {
+    height: 30vh;
+    width: 30vh;
+    object-fit: cover;
+}
+a {
+    text-decoration: none;
+    color: #FDF0D5;
+    font-weight:600;
+    font-size: large;
+}
+li {
+list-style: none;
+}
+
+
+/* CLASS SELECTORS */
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0;
+}
+.sofia-regular {
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .topnav {
+    padding: 5%;
+
+  }
+
+.recipe {
+    width: 25%;
+    margin: 0 4%;
+    text-align: center;
+}
+  .recipe > a > img {
+border-radius: 50%;
+filter: grayscale(0.5) contrast(1.3) brightness(1);
+}
+.recipe > a > p {
+    padding: 20px 0;
+    font-size: medium;
+    font-weight: 400;
+}
+.recipe > a > h4 {
+    font-size: xx-large;
+}
+.difficulty_rating {
+    padding-top: 20px;
+}
+.fa {
+  color: #e8b44c;
+}
+.footer_links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_links > div {
+  margin: 0 50px;
+}
+
+.footer_links > div > li > a {
+  font-weight: 300;
+}
+
+
+  /* TOPNAV SELECTORS */
+.topnav {
+    padding-top: 0;
+}
+  .topnav > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  .topnav > ul > li > input {
+    background-color: #FDF0D5;
+    caret-color: transparent;
+  }
+
+  /* HEADER ID SELECTORS */
+  #header {
+    color: #FDF0D5;
+    text-align: center;
+  }
+  #logo {
+    padding: 0 5%;
+  }
+  #stars {
+    width: 12%;
+    height: 12%;
+  }
+  #sun {
+    width: 15%;
+    height: 20%;
+  }
+
+    /* ABOUT SECTION ID SELECTORS */
+  #about_section {
+    background-color: #FDF0D5;
+    padding: 8%;
+    display: flex;
+    justify-content: space-around;
+    color: #e8b44c;
+  }
+  #about_section > h2 {
+    margin-right: 5%;
+  }
+
+  /* RERCIPE SECTION ID SELECTORS */
+  #recipe_section {
+    background-color: #E01A4F;
+    color: #FDF0D5;
+    padding: 4% 5%;
+  }
+  #recipe_header {
+    text-align: center;
+    padding: 25px;
+   }
+
+
+   #footer_footer {
+    justify-content: space-around;
+    padding: 25px 0;
+    color: #FDF0D5;
+   }
